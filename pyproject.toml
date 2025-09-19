@@ -5,4 +5,22 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "graspnetapi"
 version = "1.0.0"
-dependencies = []
+dependencies = [
+    "numpy>=1.23.4",
+    "scipy",
+    "transforms3d>=0.3.1",
+    "open3d>=0.8.0.0",
+    "trimesh",
+    "tqdm",
+    "Pillow",
+    "matplotlib",
+    "pywavefront",
+    "scikit-image",
+    "autolab-core",
+    "autolab-perception",
+    "cvxopt",
+    "dill",
+    "h5py",
+    "scikit-learn",
+     "grasp_nms" 
+]
