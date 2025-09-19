@@ -22,5 +22,5 @@ dependencies = [
     "dill",
     "h5py",
     "scikit-learn",
-     "grasp_nms" 
+    "grasp_nms" 
 ]
